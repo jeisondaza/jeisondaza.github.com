@@ -81,7 +81,7 @@ html{
 
 /* Styles for second page */
 .description{
-  border: teal solid;
+  /* border: teal solid; */
   padding: 1.5rem;
 }
 .description h2{
