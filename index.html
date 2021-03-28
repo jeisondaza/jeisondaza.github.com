@@ -36,12 +36,13 @@
                     <span class="material-icons md-48 arrow">arrow_downward</span>
                 </div>
             </section>
-        
+            
+            <!--description's secrion -->
             <section id="slide2">
                 <div class="description">
                     <h2>Hola, soy  Jeison</h2>
                     <h3>Bienvenido a mi portafolio web.</h3>
-                    <p>Me encanta programar y que las cosas se vean y se sientan geniales, por eso quiero dedicarme al desarollo Front-end. Aquí publicaré algunos proyectos personales que surjan de mi aprendizaje. Y a medida que vaya ganando más profesionalidad también podrás ver proyectos de mayor calidad. Gracias por estar aquí, sigue adelante y conóceme un poco, y si te gusta mi trabajo no dudes en <a href="#slide5">contactarme</a>.</p>
+                    <p>Me encanta programar y que las cosas se vean y se sientan geniales, por eso quiero dedicarme al desarollo Front-end (y en un futuro cercano al desarrollo de videjuegos). Aquí publicaré algunos proyectos personales que surjan de mi aprendizaje. Y a medida que vaya ganando más profesionalidad también podrás ver proyectos de mayor calidad. Gracias por estar aquí, sigue adelante y conóceme un poco, y si te gusta mi trabajo no dudes en <a href="#slide5">contactarme</a>.</p>
                     <ul class="social">
                             <li>
                                 <a href="https://www.facebook.com/jeisondagoz" target="_blank">
@@ -65,9 +66,11 @@
                             </li>
                         </ul>
                 </div>
+
+                <!--skills's secrion -->
                 <div class="skills">
-                    <h2>Mis Habilidades</h2>
-                    <ul>
+                    <h2>Mis habilidades</h2>
+                    <ul>    
                         <li>HTML & CSS</li>
                         <li><progress max="100" value="50"></progress></li>
                         <li>JavaScript</li>
@@ -80,17 +83,67 @@
                         <li><progress max="100" value="30"></progress></li>
                         <li>Diseño UI/UX</li>
                         <li><progress max="100" value="60"></progress></li>
+                        <li>Git y github</li>
+                        <li><progress max="100" value="60"></progress></li>
                     </ul>
                 </div>
-            </section>
-        
-            <section id="slide3">
-            </section>
 
-            <section id="slide4">
-            </section>
+                <!--portfolio's secrion -->
+                <div class="projects">
+                    <h2>Mis Proyectos</h2>
 
-            <section id="slide5">
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+                        <button class="btn" onclick="filterSelection('nature')"> Front-end</button>
+                        <button class="btn" onclick="filterSelection('cars')"> App móviles</button>
+                        <button class="btn" onclick="filterSelection('cars')"> Back-end</button>
+                        <button class="btn" onclick="filterSelection('people')"> Juegos</button>
+                    </div>
+
+                    <div class="galery">
+                        <div class="card">
+                            <img src="img/no_img.png" alt="imagen del projecto">
+                            <div class="container">
+                                <h4>Título del proyecto<b/></h4>
+                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/no_img.png" alt="imagen del projecto">
+                            <div class="container">
+                                <h4>Título del proyecto<b/></h4>
+                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/no_img.png" alt="imagen del projecto">
+                            <div class="container">
+                                <h4>Título del proyecto<b/></h4>
+                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--interest's secrion -->
+                <div class="trabajo">
+                    <h2>Áreas de interés profesional</h2>
+                    <div>
+                        <span class="iconify" data-inline="false" data-icon="bi:credit-card-2-front-fill"></span>
+                        <h3>Front-end web y móvil</h3>
+                        <p>Tengo habilidades para diseñar y programar el aspecto visual de una aplicación web y móvil, dándole el estilo y la usabilidad que estén en mayor sintonía con la intención del proyecto en cuestión.</p>
+                    </div>
+                    <div class="await">
+                        <span class="iconify" data-inline="false" data-icon="ant-design:database-filled"></span>
+                        <h3>Back-end </h3>
+                        <p>🔒 Aún lo estoy aprendiendo.</p>
+                    </div>
+                    <div class="await">
+                        <span class="iconify" data-inline="false" data-icon="ion:game-controller"></span>
+                        <h3>Desarollo de videjuegos</h3>
+                        <p>🔒 Aún lo estoy aprendiendo.</p>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
