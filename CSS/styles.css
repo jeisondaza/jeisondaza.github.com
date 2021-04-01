@@ -254,6 +254,7 @@ progress[value]::-webkit-progress-bar {
 .await p{
   color: black;
 }
+<<<<<<< HEAD
 
 /* styles for contact section */
 .contact{
@@ -297,3 +298,5 @@ input[type="submit"]{
 input[type="submit"]:active{
   background-color: #e42222;
 }
+=======
+>>>>>>> b9c2d9413952b708a07e1aba95388d137cbcb1d2
