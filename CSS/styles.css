@@ -1,13 +1,14 @@
  *{
-   margin: 0;
+  margin: 0;
+  padding: 0;
  }
 html{
-   font-size: 62.5%;
+  font-size: 62.5%;
  }
-  .full-screen section{
-    height: 100;
-    width: 100;
-  }
+.full-screen section{
+  height: 100;
+  width: 100;
+}
 
 /* rules for principal page */
 .menu{
@@ -81,7 +82,7 @@ html{
 
 /* Styles for second page */
 .description{
-  border: teal solid;
+  /* border: teal solid; */
   padding: 1.5rem;
 }
 .description h2{
@@ -183,8 +184,8 @@ progress[value]::-webkit-progress-bar {
 }
 .btn.active {
   background-color: #B72D2D;
-   color: white;
-   border-radius: 9%;
+  color: white;
+  border-radius: 9%;
 }
 .galery{
   /* border: springgreen solid; */
@@ -252,4 +253,47 @@ progress[value]::-webkit-progress-bar {
 }
 .await p{
   color: black;
+}
+
+/* styles for contact section */
+.contact{
+  background-color: #cccccc;
+  text-align: center;
+  padding: 1.5rem;
+}
+.contact h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.from-grup{
+  margin-bottom: 2rem;
+}
+input[type="text"], input[type="email"], .from-grup textarea{
+  padding: 0.8rem 1rem;
+  font-size: 1.5rem;
+  outline: 0;
+  border: solid 0.1rem #B72D2D;
+  width: 90%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+
+.from-grup textarea:focus{
+border: 1px solid indigo;
+}
+input[type="submit"]{
+  padding: 1rem 1.8rem;
+  background-color: #B72D2D;
+  color: white;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  transition: background-color 0,25s;
+}
+input[type="submit"]:active{
+  background-color: #e42222;
 }
