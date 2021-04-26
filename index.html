@@ -4,165 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="CSS/styles.css">
-
+    
     <title>Jeison Daza - Portafolio</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/eb401a5998.js" crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-
 </head>
 <body>
-    <main>
-        <div class="full-screen">
-            <section id="slide1">
-                <nav class="menu">
-                    <i class="fas fa-bars"></i>
-                </nav>
+   <main>
+       <div class="fullScreen">
+        <!--home section-->
+           <section id="homePage">
                 <video autoplay muted loop id="video">
-                     <source src="video/peopleWorking.mp4" type="video/mp4">
+                    <source src="video/peopleWorking.mp4" type="video/mp4">
                 </video>
-                <div class="container-principal">
-                    <img class="imagen-profile" src="img/me.jpg" alt="imagen de perfil de Jeison Daza">
-                    <h2>Jeison Daza</h2>
-                    <h3>Desarrollador Front-end</h3>
+                <div class="welcome"> <!--my description-->
+                    <img class="welcome__profilePhoto" src="img/me.jpg" alt="Profile photo os Jeison Daza">
+                    <h1>Jeison Daza</h1>
+                    <h2>Frontend Developer</h2>
                 </div>
-                <div class="arrow">
-                    <span class="material-icons md-48 arrow">arrow_downward</span>
-                </div>
-            </section>
-            
-            <!--description's secrion -->
-            <section id="slide2">
-                <div class="description">
-                    <h2>Hola, soy  Jeison</h2>
-                    <h3>Bienvenido a mi portafolio web.</h3>
-                    <p>Me encanta programar y que las cosas se vean y se sientan geniales, por eso quiero dedicarme al desarollo Front-end (y en un futuro cercano al desarrollo de videjuegos). Aquí publicaré algunos proyectos personales que surjan de mi aprendizaje. Y a medida que vaya ganando más profesionalidad también podrás ver proyectos de mayor calidad. Gracias por estar aquí, sigue adelante y conóceme un poco, y si te gusta mi trabajo no dudes en <a href="#contacto">contactarme</a>.</p>
-                    <ul class="social">
-                            <li>
-                                <a href="https://www.facebook.com/jeisondagoz" target="_blank">
-                                    <span class="iconify" data-inline="false" data-icon="logos:facebook"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jeisondaza" target="_blank">
-                                    <span class="iconify" data-inline="false" data-icon="logos:github-octocat"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/jeison-daza-1ab054191/" target="_blank">
-                                    <span class="iconify" data-inline="false" data-icon="logos:linkedin-icon"></span>
-                                </a>
-                            </li>
-                            <li id="insta">
-                                <a href="https://www.instagram.com/jeisondaza21" target="_blank">
-                                    <span class="iconify" data-inline="false" data-icon="logos:instagram-icon"></span>
-                                </a>
-                            </li>
-                        </ul>
-                </div>
-
-                <!--skills's secrion -->
-                <div class="skills">
-                    <h2>Mis habilidades</h2>
-                    <ul>    
-                        <li>HTML & CSS</li>
-                        <li><progress max="100" value="50"></progress></li>
-                        <li>JavaScript</li>
-                        <li><progress max="100" value="20"></progress></li>
-                        <li>Dart & Flutter</li>
-                        <li><progress max="100" value="40"></progress></li>
-                        <li>C#</li>
-                        <li><progress max="100" value="40"></progress></li>
-                        <li>Motor gráfico Unity</li>
-                        <li><progress max="100" value="30"></progress></li>
-                        <li>Diseño UI/UX</li>
-                        <li><progress max="100" value="60"></progress></li>
-                        <li>Git y github</li>
-                        <li><progress max="100" value="60"></progress></li>
-                    </ul>
-                </div>
-
-                <!--portfolio's secrion -->
-                <div class="projects">
+           </section>
+        
+        <!--portfolio section-->
+           <section id="portfolioPage">
+                <div class="portfolio">
                     <h2>Mis Proyectos</h2>
-
-                    <div id="myBtnContainer">
+                    <div class="portfolio__BtnContainer"> <!--Botton's card filter-->
                         <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-                        <button class="btn" onclick="filterSelection('nature')"> Front-end</button>
-                        <button class="btn" onclick="filterSelection('cars')"> App móviles</button>
-                        <button class="btn" onclick="filterSelection('cars')"> Back-end</button>
-                        <button class="btn" onclick="filterSelection('people')"> Juegos</button>
+                        <button class="btn"        onclick="filterSelection('web')"> Apps Web</button>
+                        <button class="btn"        onclick="filterSelection('movil')"> Apps Móviles</button>
+                        <button class="btn"        onclick="filterSelection('games')"> Juegos</button>
                     </div>
+                    <div class="portfolio__galery">
+                        <div class="portfolio__card">
+                            <img class="card__imge" src="img/no_img.png" alt="imagen del projecto">
+                            <div class="card__description">
+                                <h3>Título del proyecto</h3>
+                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
+                            </div>
+                        </div>
 
-                    <div class="galery">
-                        <div class="card">
-                            <img src="img/no_img.png" alt="imagen del projecto">
-                            <div class="container">
-                                <h4>Título del proyecto<b/></h4>
-                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/no_img.png" alt="imagen del projecto">
-                            <div class="container">
-                                <h4>Título del proyecto<b/></h4>
-                                <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/no_img.png" alt="imagen del projecto">
-                            <div class="container">
-                                <h4>Título del proyecto<b/></h4>
+                        <div class="portfolio__card">
+                            <img class="card__imge" src="img/no_img.png" alt="imagen del projecto">
+                            <div class="card__description">
+                                <h3>Título del proyecto</h3>
                                 <p>Breve description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa reiciendis adipisci soluta repellat! Ex ratione enim repellendus quo alias!</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--interest's section -->
-                <div class="trabajo">
+            <!--about section-->    
+           </section>
+
+           <section id="aboutPage">
+                <div class="about">
                     <h2>Áreas de interés profesional</h2>
-                    <div>
-                        <span class="iconify" data-inline="false" data-icon="bi:credit-card-2-front-fill"></span>
-                        <h3>Front-end web y móvil</h3>
-                        <p>Tengo habilidades para diseñar y programar el aspecto visual de una aplicación web y móvil, dándole el estilo y la usabilidad que estén en mayor sintonía con la intención del proyecto en cuestión.</p>
-                    </div>
-                    <div class="await">
-                        <span class="iconify" data-inline="false" data-icon="ant-design:database-filled"></span>
-                        <h3>Back-end </h3>
-                        <p>🔒 Aún lo estoy aprendiendo.</p>
-                    </div>
-                    <div class="await">
-                        <span class="iconify" data-inline="false" data-icon="ion:game-controller"></span>
-                        <h3>Desarollo de videjuegos</h3>
-                        <p>🔒 Aún lo estoy aprendiendo.</p>
-                    </div>
-                </div>
 
-                <!-- Form section -->
-                <div class="contact" id="contacto">
-                    <h2>Contacto</h2>
-                    <form>
-                        <div class="from-grup">
-                            <input type="text" placeholder="Nombre">
-                      </div>
-                        <div class="from-grup">
-                            <input type="email" placeholder="Email">
-                        </div>
-                        <div class="from-grup">
-                            <textarea name="asunto" id="" cols="30" rows="10" placeholder="Asunto"></textarea>
-                        </div>
-                        <input type="submit" value="Enviar">
-                    </form>
                 </div>
-            </section>
-        </div>
-    </main>
+           </section>
+       </div>
+   </main>
 </body>
 </html>
