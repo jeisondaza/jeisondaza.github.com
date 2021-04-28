@@ -50,12 +50,13 @@ html{
 
 /*Here begin the portfolio page*/
 .portfolio{
-    margin: 6rem 4rem 4rem 4rem;
+  margin: 4rem 2rem 4rem 2rem;
 }
 .portfolio h2{
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
 }
 /*Styles for card's filter*/
 .btn {
@@ -108,10 +109,62 @@ html{
   
   /*Here begin the about page*/
   .about{
-    margin: 4rem;
+    margin: 4rem 2rem 4rem 2rem;
   }
   .about h2{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    text-align: right;
+  }
+  .about__interesing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .intesesing__areas{
+    text-align: left;
     margin-bottom: 2rem;
+  }
+  .disable{
+    color:lightgrey;
+  }
+  .areas__icon{
+    font-size: 3.5rem;
+  }
+  .intesesing__areas h3{
+    font-size: 1.8rem;
+  }
+  .intesesing__areas p{
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  /*Here begin the contac icons*/
+  footer{
+    padding: 0.5rem;
+  }
+  footer h3{
+    margin-bottom: 1rem;
+  }
+  .about__contact li{
+    display: inline-block;
+    list-style: none;
+    margin-inline: 1rem;
+  }
+  .contact__icon{
+    font-size: 3rem;
+  }
+  .fa-github-square{
+    color: black;
+  }
+  .fa-linkedin{
+    color: #3f54cc;
+  }
+  .fa-instagram-square{
+    color: #b32989
+  }
+  .fa-facebook-square{
+    color: #0352fc;
   }
