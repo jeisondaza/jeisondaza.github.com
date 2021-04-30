@@ -3,13 +3,13 @@
   --fontsize-title: 4rem;
 }
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 .portfolio, .about{
   margin: 4rem 2rem 4rem 2rem;
@@ -21,13 +21,13 @@ html{
   height: 100vh;
 }
 #video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -3;
-    filter: brightness(0.6);
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   z-index: -3;
+   filter: brightness(0.6);
 }
 .welcome {
     position: absolute;
@@ -53,6 +53,60 @@ html{
     font-size: 1.6rem;
     font-weight: 400;
     color:#F5F5F5;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 5rem;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: #ccc; */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Spain_%28Civil%29_alternate_colours.svg/1280px-Flag_of_Spain_%28Civil%29_alternate_colours.svg.png");
+  background-position: center;
+  background-size: contain;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png");
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
 }
 
 /*Here begin the portfolio page*/
@@ -226,6 +280,14 @@ html{
     .portfolio__BtnContainer{
       margin-left: 2rem;
       font-size: 1.8rem;
+    }
+    .card__description h3{
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .card__description p{
+      font-size: 1.5rem;
+      font-weight: 400;
     }
 
     /* New styles of the about page */
