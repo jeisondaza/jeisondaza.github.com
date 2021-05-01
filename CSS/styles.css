@@ -164,6 +164,9 @@ html{
   .contact__icon{
     font-size: 3rem;
   }
+  .fa-twitter-square{
+    color: #317ae0;
+  }
   .fa-github-square{
     color: black;
   }
