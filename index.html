@@ -29,15 +29,22 @@
            </section>
         
         <!--portfolio section-->
-           <section id="portfolioPage">
+           <section id="portfolioPage"> <!--Toggle theme-->
                 <div class="portfolio">
+                    <div class="portfolio__switchContainer">
+                        <p>Modo oscuro</p>
+                        <label class="switch">
+                            <input class="toggle" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
                     <div class="portfolio__header">
                         <h2>Mis Proyectos</h2>
                         <div class="portfolio__BtnContainer"> <!--Botton's card filter-->
-                            <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-                            <button class="btn"        onclick="filterSelection('web')"> Apps Web</button>
-                            <button class="btn"        onclick="filterSelection('movil')"> Apps Móviles</button>
-                            <button class="btn"        onclick="filterSelection('games')"> Juegos</button>
+                            <button class="btn active" onclick="filterSelection('all')"> All</button>
+                            <button class="btn"        onclick="filterSelection('web')"> Web Apps</button>
+                            <button class="btn"        onclick="filterSelection('movil')"> Movil Apps</button>
+                            <button class="btn"        onclick="filterSelection('games')"> Games</button>
                         </div>
                     </div>
                     <div class="portfolio__galery">
@@ -77,7 +84,7 @@
                             <span class="areas__icon">
                                 <i class="fas fa-gamepad"></i>
                             </span>
-                            <h3>Desarrollo de Vídeojuegos</h3>
+                            <h3 class="disable">Desarrollo de Vídeojuegos</h3>
                             <p>🔒 Aún lo estoy aprendiendo.</p>
                         </div>
                            
@@ -85,7 +92,7 @@
                             <span class="areas__icon">
                                 <i class="fas fa-server"></i>
                             </span>
-                            <h3>Back-end</h3>
+                            <h3 class="disable">Back-end</h3>
                             <p>🔒 Aún lo estoy aprendiendo.</p>
                         </div>
                     </div>
@@ -125,14 +132,8 @@
                 </a>
             </span>
         </li>
-        <li>
-            <span class="contact__icon">
-                <a href="https://www.facebook.com/jeisondagoz" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </span>
-        </li>
     </ul>
    </footer>
+   <script src="Js/code.js"></script>
 </body>
 </html>

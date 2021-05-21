@@ -54,15 +54,75 @@ html{
     font-weight: 400;
     color:#F5F5F5;
 }
+
+
+/*Here begin the portfolio page*/
+/* Style toggle theme */
+/* The switch - the box around the slider */
+.portfolio__switchContainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.portfolio__switchContainer p{
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin-top: 5rem;
+  width: 55px;
+  height: 30px;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
 }
 
-/*Here begin the portfolio page*/
+/*Styles of portfolio page*/
 .portfolio h2{
   font-size: var(--fontsize-title);
   font-weight: bold;
@@ -70,17 +130,14 @@ html{
   margin-bottom: 4rem;
 }
 /*Styles for card's filter*/
-.btn {
+.btn{
     border: none;
     outline: none;
     padding: 12px 16px;
     background-color: white;
     cursor: pointer;
   }
-  .btn:hover {
-    background-color: #ddd;
-  }
-  .btn.active {
+  .btn.active{
     background-color: #B72D2D;
     color: white;
     border-radius: 9%;
@@ -143,10 +200,10 @@ html{
   }
   .intesesing__areas h3{
     font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
   .intesesing__areas p{
     font-size: 1.5rem;
-    color: black;
   }
 
   /*Here begin the contac icons*/
@@ -176,9 +233,6 @@ html{
   .fa-instagram-square{
     color: #b32989
   }
-  .fa-facebook-square{
-    color: #0352fc;
-  }
 
   /* Here begin the style for tablet screen */
   @media screen and (min-width: 500px){
@@ -199,6 +253,15 @@ html{
     }
     .portfolio__BtnContainer{
       font-size: 1.3rem;
+    }
+    .about__intesesing{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      transform: translate(0, 30%);
+     }
+     .intesesing__areas{
+      width: 30%;
     }
   }
 
@@ -223,6 +286,9 @@ html{
      }
 
      /* New styles of the project's galery */
+     .portfolio__switchContainer p{
+      font-size: 1.5rem;
+    }
      .portfolio h2{
       font-size: var(--fontsize-title);
     }
@@ -270,6 +336,25 @@ html{
     }
     .intesesing__areas p{
       font-size: 1.7rem;
-      color: black;
     }
    }
+
+
+   /* Dark Theme */
+   .change-Color{
+      background-color: rgba(19,19,20,0.95);
+      color: white;
+   }
+   .btn-dark{
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+  }
+  .btn-dark.active{
+    background-color: #B72D2D;
+    color: white;
+    border-radius: 9%;
+  }
