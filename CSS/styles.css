@@ -148,9 +148,13 @@ input:checked + .slider:before {
     flex-direction: column;
     justify-content: space-evenly;
   }
+  .card__link{
+    text-decoration: none;
+    color: black;
+  }
   .portfolio__card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.384);
+    transition: 0.5s;
     border-radius: 3%;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -172,7 +176,7 @@ input:checked + .slider:before {
     font-weight: 400;
   }
   .portfolio__card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.397);
   }
   
   /*Here begin the about page*/
@@ -211,6 +215,7 @@ input:checked + .slider:before {
     padding: 0.5rem;
   }
   footer h3{
+    font-size: 1.8rem;
     margin-bottom: 1rem;
   }
   .about__contact li{
@@ -232,6 +237,16 @@ input:checked + .slider:before {
   }
   .fa-instagram-square{
     color: #b32989
+  }
+  .icon__fondo{
+    position: relative;
+    z-index: -3;
+    top: 4px;
+    left: 3px;
+    height: 20px;
+    width: 20px;
+    transform: translatey(-29px);
+    background-color: white;
   }
 
   /* Here begin the style for tablet screen */
@@ -357,4 +372,8 @@ input:checked + .slider:before {
     background-color: #B72D2D;
     color: white;
     border-radius: 9%;
+  }
+  .link-dark{
+    text-decoration: none;
+    color: white;
   }
