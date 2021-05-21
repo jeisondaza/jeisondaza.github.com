@@ -67,6 +67,7 @@ html{
 .portfolio__switchContainer p{
   margin-right: 0.5rem;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 .switch {
   position: relative;
@@ -197,7 +198,7 @@ input:checked + .slider:before {
     margin-bottom: 2rem;
   }
   .disable{
-    color:lightgrey;
+    color: #949494;
   }
   .areas__icon{
     font-size: 3.5rem;

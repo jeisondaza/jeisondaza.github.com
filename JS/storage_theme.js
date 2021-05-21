@@ -1,10 +1,10 @@
 "use strict";
 
 const storage = window.localStorage;
-const body   = document.querySelector('body');
-const check  = document.querySelector('.toggle');
-const button = document.querySelectorAll('.btn');
-const card   = document.querySelectorAll('.card__link');
+const body    = document.querySelector('body');
+const check   = document.querySelector('.toggle');
+const button  = document.querySelectorAll('.btn');
+const card    = document.querySelectorAll('.card__link');
 
 let dark = Boolean(storage.getItem('dark'));
 
