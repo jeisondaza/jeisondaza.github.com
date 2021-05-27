@@ -18,7 +18,7 @@ html{
 /*Here begin the home page*/
 .fullScreen #homePage{
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 #video{
    position: absolute;
@@ -285,10 +285,6 @@ input:checked + .slider:before {
    @media screen and (min-width: 1000px) {
     :root{
       --fontsize-title: 4.8rem;
-    }
-    .fullScreen #homePage{
-      width: 100%;
-      height: 100vh;
     }
      /* New styles of home page */
      #portfolioPage{
