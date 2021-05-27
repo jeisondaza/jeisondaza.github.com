@@ -17,9 +17,8 @@ html{
 
 /*Here begin the home page*/
 .fullScreen #homePage{
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 #video{
    position: absolute;
