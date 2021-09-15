@@ -3,7 +3,7 @@
 const storage = window.localStorage;
 const body    = document.querySelector('body');
 const check   = document.querySelector('.toggle');
-const button  = document.querySelectorAll('.btn');
+// const button  = document.querySelectorAll('.btn');
 const card    = document.querySelectorAll('.card__link');
 
 let dark = Boolean(storage.getItem('dark'));
@@ -20,12 +20,12 @@ function darkThemeIterator(arry, oldClass, newClass){
 const comprobationDark = dark =>{
     if(dark){
         body.classList.add('change-Color');
-        darkThemeIterator(button, 'btn', 'btn-dark');
+        // darkThemeIterator(button, 'btn', 'btn-dark');
         darkThemeIterator(card, 'card__link', 'link-dark');
         check.checked = true;
     } else {
         body.classList.remove('change-Color');
-        darkThemeIterator(button, 'btn-dark', 'btn');
+        // darkThemeIterator(button, 'btn-dark', 'btn');
         darkThemeIterator(card, 'link-dark', 'card__link');
         check.checked = false;
     }
@@ -37,12 +37,12 @@ comprobationDark(dark);
 check.addEventListener('click', function(){
     if(this.checked){
         body.classList.add('change-Color');
-        darkThemeIterator(button, 'btn', 'btn-dark');
+        // darkThemeIterator(button, 'btn', 'btn-dark');
         darkThemeIterator(card, 'card__link', 'link-dark');
         storage.setItem('dark', true)
     } else {
         body.classList.remove('change-Color');
-        darkThemeIterator(button, 'btn-dark', 'btn');
+        // darkThemeIterator(button, 'btn-dark', 'btn');
         darkThemeIterator(card, 'link-dark', 'card__link');
         storage.removeItem('dark');
     }
