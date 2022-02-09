@@ -1,0 +1,20 @@
+.nav_container {
+   position: sticky;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+.nav_container a {
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.inactive {
+   color: black;
+}
+
+.active {
+   color: var(--primary-color);
+   border-block-end: solid 4px var(--primary-color);
+}

@@ -1,5 +1,6 @@
 :root {
    --dark-bg: #1a1b1c;
+   --primary-color: #1c49e9;
 }
 html {
    box-sizing: border-box;

@@ -1,9 +1,11 @@
+import NavBar from "./NavBar";
 import "./Hero.css";
 
 const Hero = () => {
    return (
       <>
          <section className="home_container">
+            <NavBar />
             <figure className="home_main">
                <img className="home_img" src="src/assets/meBG.png" alt="me" />
                <figcaption>
