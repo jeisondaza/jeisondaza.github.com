@@ -1,9 +1,11 @@
 .nav_container {
    position: sticky;
-   top: 0;
+   inset-block-start: 0;
    display: flex;
    justify-content: space-between;
    padding: 1rem;
+   background-color: white;
+   z-index: 3;
 }
 .nav_container a {
    text-decoration: none;

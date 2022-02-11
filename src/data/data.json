@@ -1,0 +1,34 @@
+{
+   "home": {
+      "title": "Jeison Daza",
+      "subtitle": "Front-end Developer",
+      "content": [
+         "I’m a 24 year old self-taught with 2 years of experience designing and building landing pages and web apps.",
+         "I strive for the results of my work to be products that are enjoyable to use and that are written with code that’s easy to maintain and easy to understand."
+      ]
+   },
+   "skills": {
+      "title": "My Skills",
+      "subtitle": "Through my studies I have gained an understanding of computer science and web development concepts.",
+      "content": [
+         {
+            "title": "Front-end",
+            "tech": [
+               "HTML & CSS",
+               "JavaScript ES&",
+               "Web Components",
+               "React",
+               "Vue"
+            ]
+         },
+         {
+            "title": "Back-end",
+            "tech": ["Node.js", "Express", "Mongo DB", "PostgreSQL"]
+         },
+         {
+            "title": "Tools",
+            "tech": ["Git", "Postman", "Figma"]
+         }
+      ]
+   }
+}

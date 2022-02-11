@@ -1,0 +1,8 @@
+.home_bio {
+   color: white;
+   background-color: var(--dark-bg);
+   padding: 1rem;
+   position: absolute;
+   inset-block-end: 0;
+   inline-size: 100%;
+}
