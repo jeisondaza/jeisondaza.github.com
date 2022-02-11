@@ -1,15 +1,15 @@
-.home_main {
+.avatar_container {
    display: flex;
    flex-direction: column;
    align-items: center;
    transform: translateY(28%);
 }
-.home_img {
+.avatar_img {
    block-size: 250px;
    inline-size: 250px;
    object-fit: cover;
    border-radius: 50%;
 }
-.home_subtitle {
+.avatar_subtitle {
    font-size: 30px;
 }

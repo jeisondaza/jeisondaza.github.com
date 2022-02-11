@@ -1,3 +1,8 @@
+.container {
+   text-align: center;
+   padding: 2rem 0.5rem;
+}
+
 .title {
    font-size: 50px;
    margin-block: 1rem;
@@ -6,5 +11,4 @@
    background: linear-gradient(to right, #43cca3 0%, #1c49e9 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   font-size: 30px;
 }

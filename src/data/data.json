@@ -15,7 +15,7 @@
             "title": "Front-end",
             "tech": [
                "HTML & CSS",
-               "JavaScript ES&",
+               "JavaScript ES6",
                "Web Components",
                "React",
                "Vue"
@@ -28,6 +28,27 @@
          {
             "title": "Tools",
             "tech": ["Git", "Postman", "Figma"]
+         }
+      ]
+   },
+   "projects": {
+      "title": "My journey in web development",
+      "subtitle": "I like to stay busy and always have a project in the works.",
+      "content": [
+         {
+            "title": "Only CSS keyboard",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+         },
+         {
+            "title": "Only CSS keyboard",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+         },
+         {
+            "title": "Only CSS keyboard",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
          }
       ]
    }
