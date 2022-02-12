@@ -1,4 +1,11 @@
+.tech_section {
+   display: flex;
+   flex-direction: column;
+}
 .tech_title {
    font-size: 25px;
    margin-block: 2rem 1rem;
+}
+.tech_group {
+   align-items: flex-start;
 }

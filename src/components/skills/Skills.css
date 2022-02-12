@@ -1,0 +1,14 @@
+.tech_container {
+   inline-size: 100%;
+}
+@media screen and (min-width: 750px) {
+   .tech_container {
+      display: flex;
+      justify-content: space-around;
+   }
+}
+@media screen and (min-width: 1024px) {
+   .tech_container {
+      inline-size: 1008px;
+   }
+}

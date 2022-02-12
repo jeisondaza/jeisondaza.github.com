@@ -3,7 +3,7 @@ import PostCard from "./PostCard";
 
 const BlogPost = () => {
    return (
-      <section className="container">
+      <section className="fullHeight container">
          <h2 className="title">Visit my blog</h2>
          <article className="post">
             <PostCard />

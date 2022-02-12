@@ -14,3 +14,20 @@
    font-weight: bold;
    color: var(--primary-color);
 }
+@media screen and (min-width: 600px) {
+   .card {
+      display: flex;
+      align-items: center;
+      inline-size: 100%;
+      margin-block-end: 8rem;
+   }
+   .card_img {
+      inline-size: 50%;
+   }
+   .reverse {
+      flex-direction: row-reverse;
+   }
+   .card_description {
+      padding-inline: 1.5rem;
+   }
+}

@@ -15,7 +15,7 @@ const ContactForm = () => {
             name=""
             id=""
             cols="30"
-            rows="15"
+            rows="20"
             placeholder="What you want"
          ></textarea>
          <input className="form_submit" type="submit" value="Send" />

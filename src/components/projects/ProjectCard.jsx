@@ -1,8 +1,9 @@
 import "./ProjectCard.css";
 
-const ProjectCard = ({ content }) => {
+const ProjectCard = ({ content, reverse }) => {
+   console.log(!reverse);
    return (
-      <div className="card">
+      <div className={`card ${!reverse && "reverse"}`}>
          <img src={content.img} alt="project img" className="card_img" />
          <div className="card_description">
             <h3>{content.title}</h3>

@@ -9,7 +9,7 @@ const Projects = () => {
          <SubtitleParagraph content={projects.subtitle} />
          <article className="card_container">
             {projects.content.map((el, index) => (
-               <ProjectCard content={el} key={index} />
+               <ProjectCard content={el} key={index} reverse={index % 2} />
             ))}
          </article>
       </section>

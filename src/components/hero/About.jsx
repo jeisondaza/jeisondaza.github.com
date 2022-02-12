@@ -4,7 +4,9 @@ const About = ({ content }) => {
    return (
       <article className="home_bio">
          {content.map((el, index) => (
-            <SubtitleParagraph content={el} key={index} />
+            <p className="home_description" key={index}>
+               {el}
+            </p>
          ))}
       </article>
    );

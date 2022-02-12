@@ -2,7 +2,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   transform: translateY(28%);
+   transform: translateY(5rem);
 }
 .avatar_img {
    block-size: 250px;
@@ -12,4 +12,20 @@
 }
 .avatar_subtitle {
    font-size: 30px;
+}
+@media screen and (min-width: 1024px) {
+   .avatar_container {
+      flex-direction: row;
+      padding-inline-start: 10rem;
+      gap: 1rem;
+   }
+}
+@media screen and (min-width: 1400px) {
+   .avatar_img {
+      block-size: 400px;
+      inline-size: 400px;
+   }
+   .avatar_subtitle {
+      font-size: 34px;
+   }
 }

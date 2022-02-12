@@ -12,3 +12,8 @@
 .post_img {
    inline-size: 100%;
 }
+@media screen and (min-width: 600px) {
+   .post_card {
+      width: 17rem;
+   }
+}

@@ -1,8 +1,24 @@
 .home_bio {
+   text-align: center;
    color: white;
    background-color: var(--dark-bg);
    padding: 1rem;
    position: absolute;
    inset-block-end: 0;
    inline-size: 100%;
+}
+.home_description {
+   font-weight: 300;
+   margin-block: 1rem;
+}
+@media screen and (min-width: 750px) {
+   .home_bio {
+      text-align: start;
+      padding: 2rem 4rem;
+   }
+}
+@media screen and (min-width: 1000px) {
+   .home_bio {
+      padding-inline: 10rem;
+   }
 }

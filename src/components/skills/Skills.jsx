@@ -5,7 +5,7 @@ import { skills } from "~/data/data.json";
 
 const Skills = () => {
    return (
-      <section className="container">
+      <section className="fullHeight container">
          <h2 className="title">{skills.title}</h2>
          <SubtitleParagraph content={skills.subtitle} />
          <article className="tech_container">

@@ -1,6 +1,6 @@
 .subtitle_paragraph {
    margin-block: 1.5rem;
-   align-items: center;
    text-align: center;
    font-weight: 300;
+   inline-size: 23rem;
 }

@@ -1,3 +1,8 @@
 .card_container {
-   padding-block-start: 1rem;
+   padding-block-start: 2rem;
+}
+@media screen and (min-width: 1024px) {
+   .card_container {
+      inline-size: 1008px;
+   }
 }

@@ -1,4 +1,8 @@
 .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    text-align: center;
    padding: 2rem 0.5rem;
 }
@@ -11,4 +15,22 @@
    background: linear-gradient(to right, #43cca3 0%, #1c49e9 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 700px) {
+   .container {
+      padding-block: 0;
+   }
+   .fullHeight {
+      padding-block-start: 3rem;
+      block-size: 100vh;
+      justify-content: flex-start;
+   }
+}
+@media screen and (min-width: 1024px) {
+   .title {
+      font-size: 60px;
+   }
+   .container {
+      padding-inline: 0;
+   }
 }
