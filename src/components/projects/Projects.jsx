@@ -1,7 +1,7 @@
 import "./Projects.css";
 import { projects } from "~/data/data.json";
 import ProjectCard from "./ProjectCard";
-import SubtitleParagraph from "./SubtitleParagraph";
+import SubtitleParagraph from "~/components/SubtitleParagraph";
 const Projects = () => {
    return (
       <section className="container">

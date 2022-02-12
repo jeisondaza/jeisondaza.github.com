@@ -1,5 +1,5 @@
 import "./About.css";
-import SubtitleParagraph from "./SubtitleParagraph";
+import SubtitleParagraph from "~/components/SubtitleParagraph";
 const About = ({ content }) => {
    return (
       <article className="home_bio">

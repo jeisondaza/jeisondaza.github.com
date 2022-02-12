@@ -1,6 +1,6 @@
 import "./Skills.css";
 import SkillView from "./SkillView";
-import SubtitleParagraph from "./SubtitleParagraph";
+import SubtitleParagraph from "~/components/SubtitleParagraph";
 import { skills } from "~/data/data.json";
 
 const Skills = () => {

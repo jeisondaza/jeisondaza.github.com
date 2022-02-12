@@ -1,5 +1,5 @@
 import "./SkillView.css";
-import List from "./List";
+import List from "~/components/List";
 
 const SkillView = ({ content }) => {
    return (

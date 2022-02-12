@@ -1,6 +1,6 @@
 import "./Contact.css";
 import { contact } from "~/data/data.json";
-import SubtitleParagraph from "./SubtitleParagraph";
+import SubtitleParagraph from "~/components/SubtitleParagraph";
 import IconSocialMedia from "./IconSocialMedia";
 import ContactForm from "./ContactForm";
 
