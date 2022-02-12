@@ -1,4 +1,5 @@
 import "./App.css";
+import BlogPost from "./components/BlogPost";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -13,6 +14,7 @@ function App() {
          <Skills />
          <Projects />
          <Contact />
+         <BlogPost />
       </>
    );
 }
