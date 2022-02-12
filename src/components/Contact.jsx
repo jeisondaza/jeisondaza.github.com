@@ -2,6 +2,7 @@ import "./Contact.css";
 import { contact } from "~/data/data.json";
 import SubtitleParagraph from "./SubtitleParagraph";
 import IconSocialMedia from "./IconSocialMedia";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
    return (
@@ -15,6 +16,7 @@ const Contact = () => {
                <IconSocialMedia content={el} key={index} />
             ))}
          </div>
+         <ContactForm />
       </section>
    );
 };

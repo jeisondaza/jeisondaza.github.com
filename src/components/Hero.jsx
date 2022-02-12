@@ -1,5 +1,4 @@
 import "./Hero.css";
-import NavBar from "./NavBar";
 import Avatar from "./Avatar";
 import About from "./About";
 import { home } from "~/data/data.json";

@@ -1,0 +1,35 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   margin-block-start: 3rem;
+   font-family: "Roboto", sans-serif;
+   padding-inline: 2rem;
+}
+.form_input {
+   background-color: transparent;
+   color: white;
+   border: 1px solid #b1f1de;
+   border-radius: 3px;
+   padding: 0.5rem;
+   outline: none;
+}
+.form_input:focus {
+   border-color: var(--accent-color);
+}
+.email {
+   height: 2.5rem;
+}
+.description {
+   resize: none;
+}
+.form_submit {
+   font-weight: bold;
+   padding-block: 0.7rem;
+   color: white;
+   background-color: var(--primary-color);
+   border: none;
+   border-radius: 3px;
+   box-shadow: 0px 0px 17px 1px var(--primary-color);
+   cursor: pointer;
+}

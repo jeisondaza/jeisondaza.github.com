@@ -1,6 +1,10 @@
 .contact {
    color: white;
    background-color: var(--dark-bg);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   block-size: 100vh;
 }
 .icons_container {
    display: flex;
