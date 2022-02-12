@@ -51,5 +51,27 @@
             "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
          }
       ]
+   },
+   "contact": {
+      "title": "Let's Build Something",
+      "word": " Together",
+      "subtitle": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
+      "icons": [
+         {
+            "name": "linkedin",
+            "icon": "src/assets/icons/linkedin.svg",
+            "url": "https://www.linkedin.com/in/jeison-daza-dev/"
+         },
+         {
+            "name": "gitHub",
+            "icon": "src/assets/icons/github.svg",
+            "url": "https://github.com/jeisondaza"
+         },
+         {
+            "name": "twitter",
+            "icon": "src/assets/icons/twitter.svg",
+            "url": "https://twitter.com/JeisonDaza21"
+         }
+      ]
    }
 }

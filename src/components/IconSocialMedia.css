@@ -1,0 +1,18 @@
+.icon_box {
+   z-index: 2;
+   position: relative;
+   cursor: pointer;
+}
+.icon {
+   inline-size: 3rem;
+   block-size: 3rem;
+}
+.icon_fondo {
+   position: absolute;
+   z-index: -1;
+   inset-block-start: 0.4rem;
+   inset-inline-start: 0.4rem;
+   inline-size: 2.2rem;
+   block-size: 2.2rem;
+   background-color: white;
+}
