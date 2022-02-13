@@ -1,23 +1,23 @@
 :root {
-   --dark-bg: #1a1b1c;
-   --primary-color: #1c49e9;
-   --accent-color: #43cca3;
+  --dark-bg: #1a1b1c;
+  --primary-color: #1c49e9;
+  --accent-color: #43cca3;
 }
 html {
-   box-sizing: border-box;
-   font-size: 16px;
-   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
 *::after,
 *::before {
-   box-sizing: inherit;
-   padding: 0;
-   margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
-@media screen and (min-width: 1024px) {
-   html {
-      font-size: 20px;
-   }
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 20px;
+  }
 }

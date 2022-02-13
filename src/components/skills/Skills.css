@@ -1,14 +1,23 @@
 .tech_container {
-   inline-size: 100%;
+  inline-size: 100%;
 }
-@media screen and (min-width: 750px) {
-   .tech_container {
-      display: flex;
-      justify-content: space-around;
-   }
+@media screen and (min-width: 700px) {
+  .tech_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills {
+    justify-content: flex-start;
+  }
 }
 @media screen and (min-width: 1024px) {
-   .tech_container {
-      inline-size: 1008px;
-   }
+  .tech_container {
+    inline-size: 1008px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .skills {
+    padding-block-start: 3rem;
+    block-size: 90vh;
+  }
 }

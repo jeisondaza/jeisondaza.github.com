@@ -5,15 +5,18 @@
    text-align: start;
    padding: 1rem;
    border-radius: 10px;
-   border: 1px solid grey;
+   border: 1px solid gray;
    color: black;
    text-decoration: none;
+}
+.post_card:hover {
+   border-color: var(--accent-color);
 }
 .post_img {
    inline-size: 100%;
 }
 @media screen and (min-width: 600px) {
    .post_card {
-      width: 17rem;
+      inline-size: 17rem;
    }
 }
