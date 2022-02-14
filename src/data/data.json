@@ -1,77 +1,80 @@
 {
-   "home": {
-      "title": "Jeison Daza",
-      "subtitle": "Front-end Developer",
-      "content": [
-         "I’m a 24 year old self-taught with 2 years of experience designing and building landing pages and web apps.",
-         "I strive for the results of my work to be products that are enjoyable to use and that are written with code that’s easy to maintain and easy to understand."
-      ]
-   },
-   "skills": {
-      "title": "My Skills",
-      "subtitle": "Through my studies I have gained an understanding of computer science and web development concepts.",
-      "content": [
-         {
-            "title": "Front-end",
-            "tech": [
-               "HTML & CSS",
-               "JavaScript ES6",
-               "Web Components",
-               "React",
-               "Vue"
-            ]
-         },
-         {
-            "title": "Back-end",
-            "tech": ["Node.js", "Express", "Mongo DB", "PostgreSQL"]
-         },
-         {
-            "title": "Tools",
-            "tech": ["Git", "Postman", "Figma"]
-         }
-      ]
-   },
-   "projects": {
-      "title": "My journey in web development",
-      "subtitle": "I like to stay busy and always have a project in the works.",
-      "content": [
-         {
-            "title": "Only CSS keyboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
-            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
-         },
-         {
-            "title": "Only CSS keyboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
-            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
-         },
-         {
-            "title": "Only CSS keyboard",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
-            "img": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
-         }
-      ]
-   },
-   "contact": {
-      "title": "Let's Build Something",
-      "word": " Together",
-      "subtitle": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
-      "icons": [
-         {
-            "name": "linkedin",
-            "icon": "src/assets/icons/linkedin.svg",
-            "url": "https://www.linkedin.com/in/jeison-daza-dev/"
-         },
-         {
-            "name": "gitHub",
-            "icon": "src/assets/icons/github.svg",
-            "url": "https://github.com/jeisondaza"
-         },
-         {
-            "name": "twitter",
-            "icon": "src/assets/icons/twitter.svg",
-            "url": "https://twitter.com/JeisonDaza21"
-         }
-      ]
-   }
+  "home": {
+    "title": "Jeison Daza",
+    "subtitle": "Front-end Developer",
+    "content": [
+      "I’m a 24 year old self-taught with 2 years of experience designing and building landing pages and web apps.",
+      "I strive for the results of my work to be products that are enjoyable to use and that are written with code that’s easy to maintain and easy to understand."
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Through my studies I have gained an understanding of computer science and web development concepts.",
+    "content": [
+      {
+        "title": "Front-end",
+        "tech": [
+          "HTML & CSS",
+          "JavaScript ES6",
+          "Web Components",
+          "React",
+          "Vue"
+        ]
+      },
+      {
+        "title": "Back-end",
+        "tech": ["Node.js", "Express", "Mongo DB", "PostgreSQL"]
+      },
+      {
+        "title": "Tools",
+        "tech": ["Git", "Postman", "Figma"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "My journey in web development",
+    "subtitle": "I like to stay busy and always have a project in the works.",
+    "content": [
+      {
+        "title": "Only CSS keyboard",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+        "img": "src/assets/thumbnails/keyboard.jpeg",
+        "url": "https://keyboard-puce.vercel.app/"
+      },
+      {
+        "title": "Business Landing Page",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+        "img": "src/assets/thumbnails/bssn.jpg",
+        "url": "https://business-homepage.vercel.app/"
+      },
+      {
+        "title": "Pokémon App",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, est eget scelerisque molestie, eros nibh porttitor mauris, eget lobortis felis turpis ut velit. Praesent neque risus, pulvinar eget ex eu, convallis dictum ipsum. ",
+        "img": "src/assets/thumbnails/poke.jpg",
+        "url": "https://poke-challenge-seven.vercel.app/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Build Something",
+    "word": " Together",
+    "subtitle": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
+    "icons": [
+      {
+        "name": "linkedin",
+        "icon": "src/assets/icons/linkedin.svg",
+        "url": "https://www.linkedin.com/in/jeison-daza-dev/"
+      },
+      {
+        "name": "gitHub",
+        "icon": "src/assets/icons/github.svg",
+        "url": "https://github.com/jeisondaza"
+      },
+      {
+        "name": "twitter",
+        "icon": "src/assets/icons/twitter.svg",
+        "url": "https://twitter.com/JeisonDaza21"
+      }
+    ]
+  }
 }
