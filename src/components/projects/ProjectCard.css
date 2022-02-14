@@ -11,9 +11,24 @@
   flex-direction: column;
   gap: 1rem;
 }
-.card_btn {
+.card_btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.btn_cta {
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn_text {
   font-weight: bold;
   color: var(--primary-color);
+  text-decoration: none;
 }
 @media screen and (min-width: 600px) {
   .card {
@@ -23,7 +38,7 @@
     margin-block-end: 8rem;
   }
   .card_img {
-    inline-size: 50%;
+    inline-size: 60%;
   }
   .reverse {
     flex-direction: row-reverse;
