@@ -38,21 +38,18 @@
       {
         "title": "Pokemon App",
         "description": "A pokedex that consumes the pokemon API. Made with Vue.js using vue-router and i18n",
-        "img": "src/assets/thumbnails/poke.jpg",
         "url": "https://poke-challenge-seven.vercel.app/",
         "repo": "https://github.com/jeisondaza/poke-challenge"
       },
       {
         "title": "Business Landing Page",
         "description": "Responsive design of a business home page whit home, services, pricing, and more sections.",
-        "img": "src/assets/thumbnails/bssn.jpg",
         "url": "https://business-homepage.vercel.app/",
         "repo": "https://github.com/jeisondaza/business-homepage"
       },
       {
         "title": "Only CSS keyboard",
         "description": "A keyboard drawn with just CSS, HTML and JS.",
-        "img": "src/assets/thumbnails/keyboard.jpg",
         "url": "https://keyboard-puce.vercel.app/",
         "repo": "https://github.com/jeisondaza/keyboard"
       }
@@ -65,17 +62,14 @@
     "icons": [
       {
         "name": "linkedin",
-        "icon": "src/assets/icons/linkedin.svg",
         "url": "https://www.linkedin.com/in/jeison-daza-dev/"
       },
       {
         "name": "gitHub",
-        "icon": "src/assets/icons/github.svg",
         "url": "https://github.com/jeisondaza"
       },
       {
         "name": "twitter",
-        "icon": "src/assets/icons/twitter.svg",
         "url": "https://twitter.com/JeisonDaza21"
       }
     ]
