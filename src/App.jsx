@@ -7,16 +7,16 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 
 function App() {
-   return (
-      <>
-         <NavBar />
-         <Hero />
-         <Skills />
-         <Projects />
-         <Contact />
-         <BlogPost />
-      </>
-   );
+  return (
+    <>
+      {/* <NavBar /> */}
+      <Hero />
+      <Skills />
+      <Projects />
+      <Contact />
+      <BlogPost />
+    </>
+  );
 }
 
 export default App;

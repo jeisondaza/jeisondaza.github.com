@@ -1,31 +1,58 @@
 .avatar_container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   transform: translateY(5rem);
+  display: flex;
+  flex-direction: column;
+  margin-block: 2rem;
+  align-items: center;
+  text-align: center;
 }
 .avatar_img {
-   block-size: 250px;
-   inline-size: 250px;
-   object-fit: cover;
-   border-radius: 50%;
+  block-size: 160px;
+  inline-size: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.home_title {
+  font-size: 35px;
 }
 .avatar_subtitle {
-   font-size: 30px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 750px) {
+  .avatar_container {
+    flex-direction: row;
+    padding-inline-start: 10rem;
+    gap: 1rem;
+    margin: 0;
+    transform: translateY(5rem);
+    text-align: start;
+  }
+  .avatar_img {
+    block-size: 200px;
+    inline-size: 200px;
+  }
 }
 @media screen and (min-width: 1024px) {
-   .avatar_container {
-      flex-direction: row;
-      padding-inline-start: 10rem;
-      gap: 1rem;
-   }
+  .avatar_img {
+    block-size: 250px;
+    inline-size: 250px;
+  }
+  .home_title {
+    font-size: 45px;
+  }
+  .avatar_subtitle {
+    font-size: 35px;
+  }
 }
 @media screen and (min-width: 1400px) {
-   .avatar_img {
-      block-size: 400px;
-      inline-size: 400px;
-   }
-   .avatar_subtitle {
-      font-size: 34px;
-   }
+  .avatar_container {
+    transform: translateY(8rem);
+  }
+  .avatar_img {
+    block-size: 400px;
+    inline-size: 400px;
+  }
+  .avatar_subtitle {
+    font-size: 34px;
+  }
 }

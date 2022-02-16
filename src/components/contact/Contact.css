@@ -1,18 +1,18 @@
 .contact {
-   color: white;
-   background-color: var(--dark-bg);
+  color: white;
+  background-color: var(--dark-bg);
 }
 .icons_container {
-   display: flex;
-   justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 @media screen and (min-width: 600px) {
-   .contact_size {
-      inline-size: 400px;
-   }
+  .contact_size {
+    inline-size: 400px;
+  }
 }
 @media screen and (min-width: 700px) {
-   .contact {
-      padding-block-end: 3rem;
-   }
+  .contact {
+    padding-block-end: 3rem;
+  }
 }
