@@ -1,0 +1,9 @@
+.style {
+  margin-block-start: 1rem;
+}
+.success {
+  color: var(--accent-color);
+}
+.danger {
+  color: red;
+}

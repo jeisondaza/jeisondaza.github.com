@@ -1,10 +1,15 @@
 import "./ProjectCard.css";
 
 const ProjectCard = ({ content, reverse }) => {
-  console.log(!reverse);
   return (
     <div className={`card ${!reverse && "reverse"}`}>
-      <img src={content.img} alt="project img" className="card_img" />
+      <img
+        src={content.img}
+        loading="lazy"
+        decoding="sync"
+        alt="project img"
+        className="card_img"
+      />
       <div className="card_description">
         <h3>{content.title}</h3>
         <p>{content.description}</p>
@@ -12,7 +17,7 @@ const ProjectCard = ({ content, reverse }) => {
           <a
             href={content.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             className="btn_cta"
           >
             Go live
@@ -20,7 +25,7 @@ const ProjectCard = ({ content, reverse }) => {
           <a
             href={content.repo}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
             className="btn_text"
           >
             GitHub
