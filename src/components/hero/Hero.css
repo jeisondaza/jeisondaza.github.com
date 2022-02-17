@@ -1,3 +1,29 @@
 .home_container {
   block-size: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.avatar_section {
+  block-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .avatar_section {
+    justify-content: start;
+    padding-inline-start: 4rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .avatar_section {
+    justify-content: start;
+    padding-inline-start: 6rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .avatar_section {
+    padding-inline-start: 8rem;
+  }
 }
